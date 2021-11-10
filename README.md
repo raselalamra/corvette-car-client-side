@@ -1,12 +1,9 @@
-### [Moto Repair](https://moto-repair.web.app/)
+### [Car](https://assignment-12-eb15b.web.app/)
 
-###
-
-<img src="https://i.ibb.co/DCXLG4S/Moto-Repair.png" alt="Moto-Repair" border="0" />
 
 ### About This Site:
 
-- [x] This is a Responsive MERN-Stack web applications for motorcycle parts repair.
+- [x] This is a Responsive MERN-Stack web applications for car site.
 - [x] In this site user can take our service, see his order list & reviews our site.
 - [x] If user want any services he must be authenticate with google or facebook.
 - [x] In this site i implement stripe payment gateway. Without payment he/she can't take our service.
