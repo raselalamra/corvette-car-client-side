@@ -11,6 +11,7 @@ import Spinner from "./Components/HomeComponents/Spinner/Spinner";
 import { getDecodedUser } from "./Components/LoginAuth/LoginManager";
 import NotFound from './Components/NotFound/NotFound';
 import PrivateRoute from './Components/PrivateRoute/PrivateRoute';
+import AllServices from "./Pages/AllServices";
 const Dashboard = lazy(() => import ('./Pages/Dashboard'));
 const Home = lazy(() => import ('./Pages/Home'));
 const Login = lazy(() => import ('./Pages/Login'));
@@ -48,6 +49,9 @@ function App() {
           </Route>
           <PrivateRoute path='/dashboard/:panel'>
             <Dashboard adminLoading={adminLoading} />
+          </PrivateRoute>
+          <PrivateRoute path="/allservices">
+            <AllServices></AllServices>
           </PrivateRoute>
           <Route path='/login'>
             <Login />

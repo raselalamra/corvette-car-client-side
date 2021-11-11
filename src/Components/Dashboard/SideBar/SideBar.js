@@ -16,7 +16,7 @@ const SideBar = ({ show, adminLoading }) => {
         <nav id="sidebar" className={show ? "active" : ""}>
             <div className="sidebar-header">
                 <Image className='d-inline-block image' src={logo}  alt='...' />
-                <h4 className='d-inline-block'>Moto Repair</h4>
+                <h4 className='d-inline-block'>Corvette Car</h4>
             </div>
             {adminLoading ? <SideBarSpinner /> :
             <ul className='list-unstyled sidebar-items'>

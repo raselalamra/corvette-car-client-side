@@ -18,9 +18,9 @@ const About = () => {
                     <Col md={6}>
                     <Fade right>
                         <h6 className="text-info">About Us</h6>
-                        <h3>Why Choose Us For Repair ?</h3>
+                        <h3>Why Choose Us For ?</h3>
                         <span className="animate-border border-black"></span>
-                        <p className="text-muted mt-2"> <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo pariatur blanditiis voluptatem iusto. Repellat, fugiat mollitia. Architecto dignissimos labore aperiam odit rem, et odio possimus maxime. Accusantium reiciendis magnam repellendus voluptates  </small> </p>
+                        <p className="text-muted mt-2"> <small>The inspection and subsequent rectification will be carried out free of cost for all new generation Scorpio and NuvoSport customers, who will be individually contacted by the company,” the company said in a regulatory filing to the BSE.  </small> </p>
                         <motion.button whileHover={{scale:1.1, textShadow:'0px 0px 8px rgb(255 255 255)', boxShadow:'0px 0px 8px #17a2b8', transition:{duration:0.4, yoyo:'Infinity'}}} className='main-button'>Learn More</motion.button>
                         </Fade>
                     </Col>

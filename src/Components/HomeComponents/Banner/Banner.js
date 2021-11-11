@@ -10,8 +10,8 @@ const Banner = () => {
             <Container>
                 <Row className="align-items-center justify-content-center banner">
                     <Col md={4}>
-                        <h1>We’re Finding Solution For Your Problems</h1>
-                        <p className="text-muted"><small>Our repair technicians have a wealth of experience repairing motor cycles and diagnosing wealth of great thing experience repairing errors.</small></p>
+                        <h1>Hyundai Santa Cruz Shuns Convention</h1>
+                        <p className="text-muted"><small>Automobile major Mahindra & Mahindra on Wednesday announced proactive inspection of a fluid hose on all new generation Scorpio and NuvoSport.</small></p>
                         <motion.button whileHover={{scale:1.1, textShadow:'0px 0px 8px rgb(255 255 255)', boxShadow:'0px 0px 8px #17a2b8', transition:{duration:0.4, yoyo:'Infinity'}}} className='main-button'>Get Started</motion.button>
                     </Col>
                     <Col className="offset-md-1" md={6}>
