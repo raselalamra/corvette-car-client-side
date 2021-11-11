@@ -5,7 +5,7 @@ import {
   BrowserRouter as Router,
   Route, Switch
 } from "react-router-dom";
-import ScrollToTop from "react-scroll-to-top";
+// import ScrollToTop from "react-scroll-to-top";
 import './App.css';
 import Spinner from "./Components/HomeComponents/Spinner/Spinner";
 import { getDecodedUser } from "./Components/LoginAuth/LoginManager";
@@ -39,7 +39,7 @@ function App() {
 
   return (
     <UserContext.Provider value={{ loggedInUser, setLoggedInUser, isAdmin, selectedService, setSelectedService }}>
-      <ScrollToTop smooth />
+      {/* <ScrollToTop smooth /> */}
       <Router>
       <Toaster />
       <Suspense fallback={<Spinner />}>

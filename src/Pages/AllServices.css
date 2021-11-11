@@ -30,6 +30,6 @@
     height: 3px;
     background: rgba(16, 186, 212, 0.5);
     border-radius: 20px;
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-50%);
+    /* -webkit-transform: translateX(-50%);
+    transform: translateX(-50%); */
   }
