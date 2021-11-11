@@ -2,6 +2,7 @@ import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import { Container, Row } from 'react-bootstrap';
 import toast from 'react-hot-toast';
+import { Link } from 'react-router-dom';
 import spinner from '../../../images/service-loder.gif';
 import ServiceDetail from '../ServiceDetail/ServiceDetail';
 import './Services.css';
@@ -31,8 +32,12 @@ const Services = () => {
                                 <img  className='img-fluid' src={spinner} alt="..." />
                             </div>
                     }
+                    <Link to="/allservices" className="btn btn-outline-info mx-auto my-5">
+                        See More
+                    </Link>
                 </Row>
             </Container>
+            
         </section>
     );
 };
